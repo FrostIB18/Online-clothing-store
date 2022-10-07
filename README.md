@@ -5,7 +5,9 @@
 3. Write commands in the Terminal:
 
     -python manage.py migrate
+    
     -python manage.py loaddata products/fixtures/categories.json
+    
     -python manage.py loaddata products/fixtures/goods.json
     
 4. Run server and check local IP adress. 
