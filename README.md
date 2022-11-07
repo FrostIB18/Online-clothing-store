@@ -1,8 +1,9 @@
-# Online-clothing-store
+# Geely store
+Geely Store is a prototype of web site with a typical structure and functionality of an online store.
 
-1. Download a project.
-2. Open it in IDLE, run the server.
-3. Write commands in the Terminal:
+How to run:
+1. git clone https://github.com/FrostIB18/Online-clothing-store.git
+2. Write commands in the Terminal:
 
     -python manage.py migrate
     
@@ -10,5 +11,5 @@
     
     -python manage.py loaddata products/fixtures/goods.json
     
-4. Run server and check local IP adress. 
-5. Enjoy!
+3. Run server by command python manage.py runserver
+4. Check local IP adress
